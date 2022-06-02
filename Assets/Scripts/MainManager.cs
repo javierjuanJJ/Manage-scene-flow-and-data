@@ -1,19 +1,61 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using Model;
 using UnityEngine;
 
 public class MainManager : MonoBehaviour
 {
     // Start() and Update() methods deleted - we don't need them right now
 
-    private static MainManager Instance;
+    private static MainManager instance;
+    private Color teamColor; // new variable declared
 
+    public static MainManager Instance => instance;
 
-    public static MainManager Instance1 => Instance;
+    public Color TeamColor
+    {
+        get => teamColor;
+        set => teamColor = value;
+    }
+    
+    public void SaveColor()
+    {
+        SaveData data = new SaveData();
+        data.TeamColor = TeamColor;
+
+        string json = JsonUtility.ToJson(data);
+  
+        File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
+    }
+    
+    public void LoadColor()
+    {
+        string path = Application.persistentDataPath + "/savefile.json";
+        if (File.Exists(path))
+        {
+            string json = File.ReadAllText(path);
+            SaveData data = JsonUtility.FromJson<SaveData>(json);
+
+            TeamColor = data.TeamColor;
+        }
+    }
+
 
     private void Awake()
     {
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        // start of new code
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+        // end of new code
+        
+        LoadColor();
+        
     }
 }
