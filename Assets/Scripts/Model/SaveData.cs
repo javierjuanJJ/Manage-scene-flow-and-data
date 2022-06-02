@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Model
 {
     [System.Serializable]
     public class SaveData
     {
-        private Color teamColor;
+        public Color teamColor;
 
         public SaveData(Color teamColor)
         {
