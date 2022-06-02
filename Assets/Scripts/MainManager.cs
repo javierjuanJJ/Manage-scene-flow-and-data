@@ -4,6 +4,7 @@ using System.IO;
 using Model;
 using UnityEngine;
 
+[DefaultExecutionOrder(1)]
 public class MainManager : MonoBehaviour
 {
     // Start() and Update() methods deleted - we don't need them right now
@@ -56,6 +57,7 @@ public class MainManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             LoadColor();
+            Debug.Log(Instance.TeamColor);
         }
     }
 }

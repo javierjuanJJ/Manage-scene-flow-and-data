@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 102
+  controlID: 78
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: 285.1741386394383
+  progressMessageClearTime: 635.5505373919101
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -716,6 +716,58 @@ MonoBehaviour:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 61d9847b0b29fbb1345723c64b5c0d503a861b8d
+      mergeA: 
+      mergeB: 
+      authorName: Javier Juan Uceda
+      authorEmail: javierjuanuceda18@gmail.com
+      commitEmail: javierjuanuceda18@gmail.com
+      commitName: Javier Juan Uceda
+      summary: 'Step 4.1 : Upload all files'
+      description: 
+      timeString: 2022-06-02T14:50:55.000+02:00
+      commitTimeString: 2022-06-02T14:50:55.000+02:00
+      changes:
+      - path: .DS_Store
+        fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+          flow and data\Junior-Programmer-Starter-Files\.DS_Store
+        projectPath: .DS_Store
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\RiderScriptEditorPersistedState.asset
+        fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+          flow and data\Junior-Programmer-Starter-Files\ProjectSettings\RiderScriptEditorPersistedState.asset
+        projectPath: ProjectSettings\RiderScriptEditorPersistedState.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+          flow and data\Junior-Programmer-Starter-Files\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 804525b9384fbfe54a6821d561c41f1061c1cbb2
+      mergeA: 
+      mergeB: 
+      authorName: Javier
+      authorEmail: 74715439+javierjuanJJ@users.noreply.github.com
+      commitEmail: noreply@github.com
+      commitName: GitHub
+      summary: Create README.md
+      description: 
+      timeString: 2022-06-02T14:50:07.000+02:00
+      commitTimeString: 2022-06-02T14:50:07.000+02:00
+      changes:
+      - path: README.md
+        fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+          flow and data\Junior-Programmer-Starter-Files\README.md
+        projectPath: README.md
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: bafcbd41162c726d6544acfb75aa5255a730df4d
       mergeA: 
       mergeB: 
@@ -2551,14 +2603,66 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-06-02T14:40:09.391+02:00
+      updatedTimeString: 2022-06-02T15:03:08.993+02:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-06-02T14:39:51.856+02:00
+      updatedTimeString: 2022-06-02T15:02:08.459+02:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 61d9847b0b29fbb1345723c64b5c0d503a861b8d
+        mergeA: 
+        mergeB: 
+        authorName: Javier Juan Uceda
+        authorEmail: javierjuanuceda18@gmail.com
+        commitEmail: javierjuanuceda18@gmail.com
+        commitName: Javier Juan Uceda
+        summary: 'Step 4.1 : Upload all files'
+        description: 
+        timeString: 2022-06-02T14:50:55.000+02:00
+        commitTimeString: 2022-06-02T14:50:55.000+02:00
+        changes:
+        - path: .DS_Store
+          fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+            flow and data\Junior-Programmer-Starter-Files\.DS_Store
+          projectPath: .DS_Store
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\RiderScriptEditorPersistedState.asset
+          fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+            flow and data\Junior-Programmer-Starter-Files\ProjectSettings\RiderScriptEditorPersistedState.asset
+          projectPath: ProjectSettings\RiderScriptEditorPersistedState.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+            flow and data\Junior-Programmer-Starter-Files\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 804525b9384fbfe54a6821d561c41f1061c1cbb2
+        mergeA: 
+        mergeB: 
+        authorName: Javier
+        authorEmail: 74715439+javierjuanJJ@users.noreply.github.com
+        commitEmail: noreply@github.com
+        commitName: GitHub
+        summary: Create README.md
+        description: 
+        timeString: 2022-06-02T14:50:07.000+02:00
+        commitTimeString: 2022-06-02T14:50:07.000+02:00
+        changes:
+        - path: README.md
+          fullPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage scene
+            flow and data\Junior-Programmer-Starter-Files\README.md
+          projectPath: README.md
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: bafcbd41162c726d6544acfb75aa5255a730df4d
         mergeA: 
         mergeB: 
@@ -4393,7 +4497,7 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 0
+      selectedIndex: 2
     selectedEntry:
       commitID: bafcbd41162c726d6544acfb75aa5255a730df4d
       mergeA: 
@@ -4977,7 +5081,7 @@ MonoBehaviour:
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
@@ -4987,13 +5091,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-06-02T14:40:09.251+02:00
+    updatedTimeString: 2022-06-02T14:53:25.904+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-06-02T14:39:51.856+02:00
+    updatedTimeString: 2022-06-02T14:53:25.791+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-06-02T14:40:45.578+02:00
+    updatedTimeString: 2022-06-02T15:03:29.180+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5013,8 +5117,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 1
   repositoryProgressMessage: Listing changed files...
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
 --- !u!114 &13
@@ -5058,13 +5162,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Helpers
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Helpers
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Material\Laboral\Unity\Programmer Junior\Unit 6 - Manage
     scene flow and data\Junior-Programmer-Starter-Files
@@ -5072,9 +5176,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 38}
-    m_SelectedIDs: 86610000
-    m_LastClickedID: 24966
-    m_ExpandedIDs: 00000000125b0000
+    m_SelectedIDs: fe5c0000
+    m_LastClickedID: 23806
+    m_ExpandedIDs: 000000001a5b0000fe5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5102,7 +5206,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000125b0000
+    m_ExpandedIDs: 000000001a5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5127,9 +5231,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 885a0000
-    m_LastClickedInstanceID: 23176
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 581a0000
+    m_LastClickedInstanceID: 6744
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -5230,9 +5334,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      m_SelectedIDs: ba7affff
+      m_LastClickedID: -34118
+      m_ExpandedIDs: 30fbfffff4ffffff6c5a0000845a0000d05a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -5248,7 +5352,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0

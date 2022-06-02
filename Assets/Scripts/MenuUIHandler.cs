@@ -24,7 +24,7 @@ public class MenuUIHandler : MonoBehaviour
             Debug.Log(MainManager.Instance.TeamColor);
         }
     }
-    
+
     private void Start()
     {
         ColorPicker.Init();
